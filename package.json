@@ -1,0 +1,38 @@
+{
+  "name": "portal_noticias",
+  "productName": "Electron portal",
+  "version": "1.0.0",
+  "description": "site de noticias",
+  "main": "noticias.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "package-win": "electron-packager . electron-tutorial-app --overwrite --asar=true --platform=win32 --arch=x64 --icon=app/public/images/favicon.ico --prune=true --out=release-builds --version-string.CompanyName=CE --version-string.FileDescription=CE --version-string.ProductName=\"Electron Portal\""
+  },
+  "devDependencies": {
+    "electron": "^11.0.3",
+    "electron-packager": "^15.1.0"
+  },
+  "author": "Thiago",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "bootbox": "^5.5.2",
+    "bootstrap": "^5.0.0-beta1",
+    "consign": "^0.1.6",
+    "ejs": "^3.1.5",
+    "express": "^4.15.3",
+    "express-validator": "^3.2.0",
+    "mysql": "^2.13.0"
+  },
+  "bin": {
+    "portal_noticias": "app.js"
+  },
+  "pkg": {
+    "assets": [
+      "views/**/*"
+    ],
+    "targets": [
+      "node15"
+    ]
+  }
+}

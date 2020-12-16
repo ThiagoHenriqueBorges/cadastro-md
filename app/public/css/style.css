@@ -1,0 +1,60 @@
+body{
+	background:#F8F8F8;
+}
+
+a:hover{
+	text-decoration: none;
+	color:#000;
+}
+
+#logoCadastro{
+	display: block;
+	text-align: center;
+	margin-left: auto;
+    margin-right: auto;
+}
+
+#logoMadrid{
+	display: block;
+	text-align: center;
+	margin-left: auto;
+    margin-right: auto;
+}
+
+.noticia_wrapper{
+	background-color: #FFF;
+	padding:15px;
+	margin-bottom:15px;
+	box-shadow: 1px 1px 2px #C3C3C3;
+}
+
+.navbar{
+	background:#FFF;
+}
+
+.nome_cliente{
+	color: #FF7C26;
+	display: block;
+}
+
+.ddd_cliente{
+	color:#000;
+	font-size:22px;
+	text-decoration: none;
+}
+
+.telefone_cliente{
+	color:#727272;
+	display: block;
+}
+
+.cidade_cliente{
+	color:#333;
+	margin-right:10px;
+}
+
+.ver_mais{
+	text-align: center;
+	background:#FFF;
+	padding:20px;
+}
