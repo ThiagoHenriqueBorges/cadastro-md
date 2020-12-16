@@ -1,5 +1,5 @@
 module.exports.formulario_inclusao_cliente = function(app, req, res){
-	res.render("admin/form_add_noticia", {validacao : {}, cliente : {}});
+	res.render("admin/form_add_cliente", {validacao : {}, cliente : {}});
 }  
 
 module.exports.salvar_cliente = function(app, req, res){
@@ -22,7 +22,7 @@ var cliente = {
 	var alert;
   
 		if (erros){
-			res.render("admin/form_add_noticia", {validacao : erros, cliente : cliente});
+			res.render("admin/form_add_cliente", {validacao : erros, cliente : cliente});
 			return;
 		}       
  
